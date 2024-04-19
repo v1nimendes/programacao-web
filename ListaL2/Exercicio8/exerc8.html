@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Vetores em PHP </title> 
+  <link rel="stylesheet" href="formata-formulario.css">
+</head> 
+
+<body> 
+  <h1> ListaL2 - exercício 8 - vetores em PHP </h1>
+
+  <form action="exerc8.php" method="post">
+    <fieldset>
+      <legend> Farmácias AAA - venda aos clientes </legend>
+      <label> Escolha os medicamentos abaixo para compra: </label> <br>
+      <input type="checkbox" name="produtos[]" value="Dorflex"> <label> Dorflex </label> <br>
+
+      <input type="checkbox" name="produtos[]" value="Rivotril"> <label> Rivotril </label> <br>
+
+      <input type="checkbox" name="produtos[]" value="Dipirona"> <label> Dipirona </label> <br> <br>
+
+      <input type="checkbox" name="faixa-etaria[]" value="0"> <label> Marque esta opção se o cliente tem 60 anos ou mais. </label> <br>
+      
+      <button> Comprar </button>
+    </fieldset>      
+  </form>    
+</body> 
+</html> 

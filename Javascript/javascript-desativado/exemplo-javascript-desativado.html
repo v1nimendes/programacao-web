@@ -1,0 +1,25 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> JavaScript </title> 
+  <link rel="stylesheet" href="formata-formulario.css">
+</head> 
+
+<body> 
+  <h1> Prevendo a desativação do JavaScript no navegador do usuário </h1>
+  <p> Técnica de "melhoramentos sucessivos" (progressive enhanced) - permite que o navegador tenha acesso básico às funções da aplicação, se o JavaScript estiver desativado. Caso contrário, a aplicação oferecerá uma série de interações dinâmicas adicionais ao usuário. </p>
+
+  <script>
+    alert("JavaScript habilitado.");
+    //o comando abaixo, em JavaScript, redireciona o navegador para a url desejada
+    window.location = "pagina-completa-com-javascript.html";
+  </script>
+
+  <noscript>
+    <!--JavaScript desativado - fornecer um link para o usuário acessar a home da aplicação SEM JavaScript-->
+    <a href="home-sem-codigos-javascript.html"> Acessar aplicação sem JavaScript </a>
+  </noscript>
+
+</body> 
+</html> 

@@ -1,0 +1,55 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Matrizes em PHP </title> 
+  <link rel="stylesheet" href="formata-formulario.css">
+</head> 
+
+<body> 
+  <h1> Avaliação 1 </h1>
+
+  <form action="avaliacao1.php" method="post">
+    <fieldset>
+      <legend> Cadastro Livro 1 </legend>
+      <label class="alinha"> ISBN: </label>
+      <input type="text" name="ISBN1" autofocus> <br>
+
+      <label class="alinha"> Nome do autor: </label>
+      <input type="text" name="nome1"> <br>
+
+      <label class="alinha"> Preço do Livro: </label>
+      <input type="number" name="preco1" min="0" max="350" step="0.1">
+    </fieldset>
+
+    <fieldset>
+      <legend> Cadastro Livro 2 </legend>
+      <label class="alinha"> ISBN: </label>
+      <input type="text" name="ISBN2"> <br>
+
+      <label class="alinha"> Nome do autor: </label>
+      <input type="text" name="nome2"> <br>
+
+      <label class="alinha"> Preço do Livro: </label>
+      <input type="number" name="preco2" min="0" max="350" step="0.1">
+    </fieldset>
+
+    <fieldset>
+      <legend> Cadastro Livro 3 </legend>
+      <label class="alinha"> ISBN: </label>
+      <input type="text" name="ISBN3"> <br>
+
+      <label class="alinha">  Nome do autor: </label>
+      <input type="text" name="nome3"> <br>
+
+      <label class="alinha"> Preço do Livro: </label>
+      <input type="number" name="preco3" min="0" max="350" step="0.1">
+    </fieldset>    
+    
+    
+
+    <button name="enviar"> Cadastrar livros </button>
+
+  </form>    
+</body> 
+</html> 

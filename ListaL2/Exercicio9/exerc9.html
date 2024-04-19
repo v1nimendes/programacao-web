@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Vetores em PHP </title> 
+  <link rel="stylesheet" href="formata-formulario.css">
+</head> 
+
+<body> 
+  <h1> ListaL2 - exercício 9 - vetores em PHP </h1>
+
+  <form action="exerc9.php" method="post">
+    <fieldset>
+      <legend> Supermercados AAA - venda aos clientes </legend>
+      <label> Escolha os produtos alimentícios abaixo para compra: </label> <br>
+      <input type="checkbox" name="produtos[]" value="Arroz"> <label> Arroz </label> <br>
+
+      <input type="checkbox" name="produtos[]" value="Feijão"> <label> Feijão </label> <br>
+
+      <input type="checkbox" name="produtos[]" value="Leite"> <label> Leite </label> <br> 
+
+      <input type="checkbox" name="produtos[]" value="Café"> <label> Café </label> <br> <br>
+
+      <input type="checkbox" name="fidelidade[]" value="0"> <label> Marque esta opção se o cliente tem o cartão fidelidade do supermercado. </label> <br>
+      
+      <button> Comprar </button>
+    </fieldset>      
+  </form>    
+</body> 
+</html> 

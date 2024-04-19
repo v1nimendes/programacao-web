@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Fundamentos do PHP </title> 
+  <link rel="stylesheet" href="formata-formulario.css">
+</head> 
+
+<body> 
+  <h1> ListaL1 - exercício 7 - Supermercados AAA - processamento de vendas </h1>
+
+  <form action="exerc7.php" method="post">
+    <fieldset>
+      <legend> Supermercados AAA - processamento de vendas com PHP </legend>
+      <label> Forneça o valor da compra do cliente: </label>
+      <input type="number" name="valor-compra" autofocus min="0" step="0.01"> <br> <br>
+
+      <label> Forma de pagamento: </label> <br>
+      <input type="radio" name="forma-pagamento" value="0"> <label> Pagou com cartão </label> <br>
+
+      <input type="radio" name="forma-pagamento" value="1"> <label> NÃO pagou com cartão </label> <br> <br>
+
+      <label> Forma de entrega: </label> <br>
+      <input type="radio" name="forma-entrega" value="0"> <label> Cliente solicitou entrega a domicílio </label> <br>
+
+      <input type="radio" name="forma-entrega" value="1"> <label> Cliente NÃO solicitou entrega a domicílio </label> <br> 
+
+      <button> Calcular valor final da compra </button>      
+    </fieldset>
+  </form>    
+</body> 
+</html> 

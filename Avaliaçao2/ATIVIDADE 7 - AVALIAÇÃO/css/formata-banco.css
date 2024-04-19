@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Sofia+Sans+Condensed&display=swap');
+
+body {
+ font-family: "Sofia Sans Condensed";
+ margin: 0;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid #00352E;
+    margin-bottom: 35px;
+    box-shadow: 0 0 5px 5px #0D5047;
+    /*caro aluno, observe com atenÃ§Ã£o as propriedades para manipular imagens de fundo em CSS, conforme utilizadas abaixo*/
+    background-image: url(http://i5.wikimapia.org/?x=796869&y=1186069&zoom=21&type=map&lng=0);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-shadow: 1px 1px 5px rgb(255, 255, 255);
+}
+
+label.alinha {
+ width: 320px; 
+ display: inline-block;
+ margin-bottom: 15px;
+ text-align: right;
+}
+
+input, button {
+ font-family: Oswald;
+}
+
+button {
+ font-size: 18px;
+ font-weight: bold;
+ width: 370px;
+ height: 80px;
+ display: block;
+ margin: 30px auto;
+ margin-bottom: 5px;
+}
+
+fieldset {
+ width: 51%;
+ margin: 30px auto;
+ padding-left: 20px;
+ border-radius: 10px; /*arredonda os cantos da caixa*/
+ box-shadow: 5px 5px 5px #bbb;
+ background-color: rgba(107, 160, 153, 0.2);
+}
+
+p {
+ width: 50%;
+ border: 1px solid #777;
+ border-radius: 10px;
+ padding: 20px;
+ margin: 20px auto;
+ text-align: center;
+ font-size: 20px;
+}
+
+span {
+ font-weight: bold;
+ color: #666;
+ font-style: italic;
+}
+
+table {
+ width: 50%;
+ border: 1px solid #777;
+ border-radius: 5px;
+ background-color: rgba(220, 220, 220, 0.8);
+ margin: 30px auto;
+}
+
+th, td {
+ border: 1px solid #777;
+ border-radius: 5px;
+}
+
+
+th {
+ background-color: #777;
+ color: #fff;
+}
+
+td {
+ text-align: center;
+}
+
+textarea {
+ width: 200px;
+ height: 150px;
+ font-family: "Sofia Sans Condensed";
+ resize: none; /*bloqueia a alça de redimensionamento*/
+ vertical-align: top; /*alinha o label que está na frente deste elemento, na vertical. Os valores possíveis são: bottom, middle e top*/
+}
+
+div {
+ text-align: center;
+ display: inline-block;
+}
+
+button[name="executar-operacao"] {
+ margin-top: 10px;
+}

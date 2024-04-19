@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body {
+ margin: 0;
+ font-family: Oswald;
+}
+
+h1 {
+ margin: 0;
+ text-align: center;
+ border-bottom: 1px solid #00352E;
+ margin-bottom: 35px;
+ box-shadow: 0 0 5px 5px #0D5047;
+ /*caro aluno, observe com atenção as propriedades para manipular imagens de fundo em CSS, conforme utilizadas abaixo*/
+ background-image: url(http://i5.wikimapia.org/?x=796869&y=1186069&zoom=21&type=map&lng=0);
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+ text-shadow: 1px 1px 5px rgb(255, 255, 255);
+}
+
+fieldset {
+ width: 35%;
+ margin: 30px auto;
+ box-shadow: 5px 5px 5px #0D5047;
+ background-color: rgba(107, 160, 153, 0.2);
+}
+
+label.alinha {
+ width: 150px;
+ display: inline-block;
+ text-align: right;
+ margin-bottom: 10px;
+}
+
+button {
+ height: 40px;
+ width: 300px;
+ margin: auto;
+ margin-top: 20px;
+ display: block;
+ font-family: Oswald;
+ font-size: 18px;
+ font-weight: bold;
+}
+
+input[name*="nome"] {
+ width: 300px;
+}
+
+p {
+ border:1px solid rgb(107, 160, 153);
+ text-align: center;
+ margin: 20px auto;
+ padding: 20px;
+}
+
+span {
+ font-weight: bold;
+ color: #00353E;
+}
+
+table {
+ width: 50%;
+ border:1px solid rgb(107, 160, 153);
+ margin: 20px auto;
+}
+
+td, th {
+ border:1px solid rgb(107, 160, 153);
+}
+
+th {
+ background-color: rgba(107, 160, 153, 0.2); 
+}
+
+td {
+ text-align: center;
+}

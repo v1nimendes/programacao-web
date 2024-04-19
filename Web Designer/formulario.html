@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Formulários com HTML5  </title> 
+  <link rel ="stylesheet" href="formata-formularios.css">
+ 
+</head> 
+
+<body> 
+  <h1> Formulário de cadastro - alunos da primeira fase do CTDS - Web Design </h1>
+
+  <form action="recebe-dados.php" method="post">
+    <fieldset>
+        <legend> Cadastro de Informações gerais do aluno</legend>
+
+        <label class="alinha"> Seu nome: </label> 
+        <input type="text" name="nome-do-usuario" placeholder=" Nome completo" autofocus> <br>
+        
+        <label class="alinha"> Seu e-mail: </label>
+        <input type="email" name="email-usurario" placeholder=" Seu e-mail" autofocus> <br>
+
+        <label class="alinha"> Data de nascimento: </label>
+        <input type="date" name="data-de-nascimento"> <br>
+
+        <label class="alinha">   Número de UC cursadas:   </label> 
+        <input type="number" name="quantindade-uc" min="0" max="5"> <br>
+
+        <label class="alinha"> Gasto mensal com locomoção: </label>
+        <input type="number" name="gasto-mensal-transporte" min="0" max="1000" step="0.01"> <br> <!-- O atributo step controla quantas casas deecimais o navegador permite fornecer na caixa numerica. O padrão é step="1" -->
+
+        <label class="alinha"> Login do aluno: </label>
+        <input type="text" name="login"> <br>
+
+        <label class="alinha"> Senha de acesso: </label>
+        <input type="password" name="senha" maxlength="20"> <br>
+        <label class="alinha"> Escolha um tema do PI: </label> <br>
+
+         <input type="radio" name="tema-pi" value="Banco de Dados"> <label> Área de banco de dados </label> <br>
+
+         <input type="radio" name="tema-pi" value="Gestão empreendedora"> <label> Gestão empreendedora</label> <br>
+
+         <input type="radio" name="tema-pi" value="Desenvolvimento em Java e PHP"> <label> Linguagens em Java e PHP</label>  <br>
+        <button> Cadastrar dados do aluno </button>
+
+    </fieldset>
+    
+  </form>
+
+
+
+</body> 
+</html>         

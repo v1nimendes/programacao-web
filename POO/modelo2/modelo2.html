@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> POO com PHP </title> 
+  <link rel="stylesheet" href="formata-formulario.css">
+</head> 
+
+<body> 
+  <h1> Exemplo do uso de POO com PHP - integrando com formulários </h1>
+
+  <form action="modelo2.php" method="post">
+    <fieldset>
+      <legend> Dados de rendimento semestral do aluno </legend>
+      <label class="alinha"> Nome: </label>
+      <input type="text" name="nome-aluno" placeholder="Forneça o nome do aluno" autofocus> <br>
+
+      <label class="alinha"> Digite a nota1: </label>
+      <input type="number" name="nota1" min="0" max="10" step="0.1"> <br>
+
+      <label class="alinha"> Digite a nota2: </label>
+      <input type="number" name="nota2" min="0" max="10" step="0.1"> <br>
+      
+      <button> Calcular média aritmética simples </button>      
+    </fieldset>
+  </form>    
+</body> 
+</html> 

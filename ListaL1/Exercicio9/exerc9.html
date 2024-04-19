@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Fundamentos do PHP </title> 
+  <link rel="stylesheet" href="formata-formulario.css">
+</head> 
+
+<body> 
+  <h1> ListaL1 - exercício 9 - Lojas AAA - processamento de vendas </h1>
+
+  <form action="exerc9.php" method="post">
+    <fieldset>
+      <legend> Lojas AAA - processamento de vendas com PHP </legend>
+      <label> Forneça o valor da compra do cliente: </label>
+      <input type="number" name="valor-compra" autofocus min="0" step="0.01"> <br> <br>
+
+      <label> Forma de pagamento: </label> <br>
+      <input type="radio" name="forma-pagamento" value="0"> <label> Pagamento à vista </label> <br>
+
+      <input type="radio" name="forma-pagamento" value="1"> <label> Pagamento a prazo </label> <br> <br>
+
+      <input type="checkbox" name="pagamento-cartao" value="0">
+      <label> Marque esta opção se o cliente pagou com cartão Visa e está habilitado ao sorteio do automóvel </label> <br>
+      
+      <button> Processar dados da compra </button>      
+    </fieldset>
+  </form>    
+</body> 
+</html> 

@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> JavaScript </title> 
+  <link rel="stylesheet" href="formata-formulario.css">
+</head> 
+
+<body> 
+  <h1> Validação de dados em formulários com JavaScript </h1>
+
+  <form action="recebe-dados.php" method="post" id="formulario">
+    <fieldset>
+      <legend> Vagas de monitoria de Programação - seleção de candidato </legend>
+
+      <label class="alinha"> Nome completo: </label>
+      <input type="text" name="nome-candidato" placeholder="Forneça o seu nome completo" autofocus id="candidato"> 
+      
+      <label id="erro-nome"></label>      
+      <br>
+
+      <label class="alinha"> Forneça a sua pretensão salarial: </label>
+      <input type="number" name="salario" min="0" max="2000" step="0.01" id="salario"> 
+      
+      <label id="erro-salario"></label>
+      <br>
+
+      <button type="submit"> Enviar proposta </button>      
+    </fieldset>
+  </form>
+  
+  <!--chamando o JavaScript externo-->
+  <script src="biblioteca-de-funcoes.js"></script>
+  <script src="valida-form.js"></script>
+</body> 
+</html> 

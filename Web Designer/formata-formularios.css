@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Playfair+Display&display=swap');
+
+body {
+    font-family: "Playfair Display", Oswald;
+    font-size: 22px; 
+}
+
+h1{
+    color: black;
+    background-color: grey;
+    text-shadow: 1px 1px #fff;
+}
